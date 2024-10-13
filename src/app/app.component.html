@@ -20,7 +20,7 @@
         placeholder="Search anything..."
       />
     </div>
-    <div class="d-lg-block d-sm-none">
+    <div class="d-lg-block d-sm-none d-xs-none">
       <a class="me-3"><i class="bi bi-bell fs-5"></i></a>
     </div>
   </nav>
@@ -290,7 +290,7 @@
       >
         <div *ngFor="let category of wedgetCategories">
           <div *ngIf="category.categoryId === 1">
-            <div class="row mt-2">
+            <div class="row mt-2 gy-2">
               <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
                 <div class="addwidget-input">
                   <label>Widget Name :</label>
@@ -354,7 +354,7 @@
       >
       <div *ngFor="let category of wedgetCategories">
         <div *ngIf="category.categoryId === 2">
-          <div class="row mt-2">
+          <div class="row mt-2 gy-2">
             <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
               <div class="addwidget-input">
                 <label>Widget Name :</label>
@@ -418,7 +418,7 @@
       >
       <div *ngFor="let category of wedgetCategories">
         <div *ngIf="category.categoryId === 3">
-          <div class="row mt-2">
+          <div class="row mt-2 gy-2">
             <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
               <div class="addwidget-input">
                 <label>Widget Name :</label>
